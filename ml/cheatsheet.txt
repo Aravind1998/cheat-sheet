@@ -1,0 +1,9 @@
+Machine Learning Algorithms
+
+Linear Regression	A supervised learning algorithm for finding the correlation between two continuous variables. After finding the correlation, it predicts a real value corresponding to the un-trained continuous variables.
+Logistic Regression	Majorly used in binary classification problems. It predicts the occurrence of an event depending on the values of an independent variable,that could be categorical or numerical. For e.g. It can predict the chance that a patient has a particular disease given certain symptoms.
+Naive Bayes	Classification technique based on Bayesian Theorem. Parameter estimation for naive bayes models uses the method of maximum likelihood. Assume that the value of a particular feature is independent of the value of any other feature, given the class variable. Particularly suited when the dimensionality of inputs is high.
+SVM (Support Vector Machine)	The fundamental idea behind SVM is to separate the classes with a straight line (hyper plane). Help to maximize the margin i.e. the distance between the separating hyperplane and the training classes that are closest to the hyperplane. Most commonly used in text classification problems.
+Decision Tree	Supervised learning algorithm, used for classification tasks. Here dataset / features split into smaller sub-groups (decision nodes where sub-nodes exists) to best describe the groups and input variables.
+KNN	Here ‘K’ is the number that decides how many neighbors are defined based on distance metric that influence the classification. Classification is done by majority vote of its neighbors, and assigned to the class most common amongst its K nearest neighbors measured by a distance function. If K=1, then assign to the class to nearest neighbor.
+Neural Network	Similar to linear/logistic regression, but with the addition of an activation function which makes it possible to predict outputs that are not linear combinations of inputs.
